@@ -1,11 +1,11 @@
 const fs = require ("fs");
-const inquirer = require ("inquirer")
-const generateHTML = require ("")
+const inquirer = require ("inquirer");
+const generateHTML = require ("");
 
-const Employee = require("./lib/Employee")
-Const Manager = require ("./lib/Manager")
-Const Engineer = require ("./lib/Engineer")
-Const Intern = require ("./lib/Intern")
+const Employee = require("./lib/Employee");
+Const Manager = require ("./lib/Manager");
+Const Engineer = require ("./lib/Engineer");
+Const Intern = require ("./lib/Intern");
 
 // All the questions for the different team members
 const managerQuestions [
@@ -74,5 +74,8 @@ const nextMember [
     },
 ];
 
+function init {
+
+}
 
 
