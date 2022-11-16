@@ -1,0 +1,27 @@
+{
+  "name": "10--team-profile-generator",
+  "version": "1.0.0",
+  "description": "## DESCRIPTION For this project I have created a node command-line application which will be to generate a HTML webpage with emplyees information.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmalHirsi/10--Team-Profile-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmalHirsi/10--Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/AmalHirsi/10--Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "jest": "^29.3.1",
+    "node-fetch": "^2.6.1"
+  }
+}
