@@ -1,22 +1,24 @@
 {
-  "name": "12-employee-management-system",
+  "name": "10--team-profile-generator",
   "version": "1.0.0",
-  "description": "## DESCRIPTION This application can be used to create a database for a company, that it will be able to use to track the different departments and employees. Using this application the companies will be able toserach through all of their employees, add and delete employees as well as add new departements and roles.",
+  "description": "## DESCRIPTION For this project I have created a node command-line application which will be to generate a HTML webpage with emplyees information.",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmalHirsi/12-Employee-Management-System.git"
+    "url": "git+https://github.com/AmalHirsi/10--Team-Profile-Generator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AmalHirsi/12-Employee-Management-System/issues"
+    "url": "https://github.com/AmalHirsi/10--Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/AmalHirsi/12-Employee-Management-System#readme",
+  "homepage": "https://github.com/AmalHirsi/10--Team-Profile-Generator#readme",
   "dependencies": {
     "inquirer": "^8.2.5"
   }
