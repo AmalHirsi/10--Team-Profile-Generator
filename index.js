@@ -130,13 +130,15 @@ function internQuestions() {
 
 function buildTeam() {
 
-    fs.writeFile("teams.txt", newTeamMember, (err) => {
-        console.log(err);
-        cosole.log(error);
-    
-    });
-    console.log("Your team has been created");
-}
+    fs.writeFileSync('./dist/index.html', renderHTML(newTeamMember), (err) => {
+    console.log (newTeamMember)
+                if (err) {
+                    if (err) throw err
+                    console.log ("Your team has been created")
+
+                }
+            })
+        }
 
 addEmployee();
 
